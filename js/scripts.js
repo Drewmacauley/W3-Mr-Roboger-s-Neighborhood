@@ -1,15 +1,9 @@
-const number = ["1"];
-const string = "Replace all of the 1 with Beep";
-const stringArray = string.split("");
-let xArray = [];
-stringArray.forEach(function(letter) {
-  if (number.includes(letter)) {
-    xArray.push("beep");
-  } else {
-    xArray.push(letter);
-  }
+const array = [1];
+let wordArray = [];
+array.forEach(function(element) {
+  wordArray.push(element === Beep);
 });
-const finalString = xArray.join("");
+wordArray;
 
 
 //function threeDig(number) {
