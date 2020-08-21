@@ -6,7 +6,7 @@
 8/21/20 4:45 PM
 
 # Description
-A week three final project showing the use of CSS, HTML, Readme, JS, loop,  
+A week three final project showing the use of CSS, HTML, Readme, JS, for loop,  
 
 ## Program setop Instructions
 1. Clone this repository.
