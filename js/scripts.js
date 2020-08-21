@@ -3,16 +3,16 @@ $(document).ready(function() {
     event.preventDefault();
     const formInt = parseInt($("input#numberInput").val());
 
-    let newArr = [formInt];
-    for (let i=o; i < formInt; i =+ 1) {
-      let newInt = (newArr[i]-1);
-      if (newInt === 0) {
-        break;
+    //let newArr = [formInt];
+    //for (let i=o; i < formInt; i =+ 1) {
+      //let newInt = (newArr[i]-1);
+     // if (newInt === 0) {
+        //break;
       };
-      newArr.push(newInt); 
+      //newArr.push(newInt); 
     }
-    let facNum = newArr.reduce((a,b) => a * b);
-    $("result").text(facNum);
+   // let facNum = newArr.reduce((a,b) => a * b);
+    //$("result").text(facNum);
 
   });
 });
