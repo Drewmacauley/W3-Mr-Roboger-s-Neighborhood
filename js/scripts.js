@@ -1,27 +1,14 @@
 function threeDig(number) {
   if (number === 1) {
-    console.log("Beep");
+    $("#numberInput").text("Beep");
   }
   else if (number === 2) {
-    console.log("Boop");
+    $("#numberInput").text("Boop");
   }
   else if (number === 3) {
-    console.log("Wont you be my neighbor"); 
+    $("#numberInput").text("Wont you be my neighbor"); 
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //$(document).ready(function() {
