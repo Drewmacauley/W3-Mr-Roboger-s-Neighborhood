@@ -1,14 +1,28 @@
-function threeDig(number) {
-  if (number === 1) {
-    $("#numberInput").text("Beep");
+const number = ["1"];
+const string = "Replace all of the 1 with Beep";
+const stringArray = string.split("");
+let xArray = [];
+stringArray.forEach(function(letter) {
+  if (number.includes(letter)) {
+    xArray.push("beep");
+  } else {
+    xArray.push(letter);
   }
-  else if (number === 2) {
-    $("#numberInput").text("Boop");
-  }
-  else if (number === 3) {
-    $("#numberInput").text("Wont you be my neighbor"); 
-    }
-  }
+});
+const finalString = xArray.join("");
+
+
+//function threeDig(number) {
+  //if (number === 1) {
+   // $("#numberInput").text("Beep");
+  //}
+  //else if (number === 2) {
+   // $("#numberInput").text("Boop");
+  //}
+ // else if (number === 3) {
+    //$("#numberInput").text("Wont you be my neighbor"); 
+   // }
+  //}
 
 
 //$(document).ready(function() {
@@ -46,3 +60,7 @@ function threeDig(number) {
 
 
 //Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
+
+
+
+
