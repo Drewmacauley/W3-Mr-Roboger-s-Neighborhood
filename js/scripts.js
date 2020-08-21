@@ -3,6 +3,13 @@ for (let index = 1; index <= 3; index += 1) {
   console.log(index);
 }
 
+const array = [0,1,2,3,4,5];
+let doubledArray = [];
+for (let index = 0; index < array.length; index +=1) {
+  doubledArray.push(array[index] * 2);
+}
+doubledArray;
+
 //function threeDig(number) {
   //if (number === 1) {
    // $("#numberInput").text("Beep");
