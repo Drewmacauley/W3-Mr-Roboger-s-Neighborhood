@@ -11,7 +11,7 @@ A week three final project showing the use of CSS, HTML, Readme, JS, for loop,
 ## Program setop Instructions
 1. Clone this repository.
 2. Navigate to index.html on web browser to view applocation.
-3. view GH pages:
+3. view GH pages: https://github.com/Drewmacauley/W3-Mr-Roboger-s-Neighborhood.git
 
 ## Technologys uses
 CSS, HTML, Readme, jquery, bootstrap, Javascript
