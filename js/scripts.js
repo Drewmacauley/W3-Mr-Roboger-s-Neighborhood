@@ -1,8 +1,11 @@
 $(document).ready(function)() {
   $("form#numberForm").submit(function(event) {
     event.preventDefault();
-    
-  }
+    const formInt = parseInt($("input#numberInput").val());
+
+
+
+  };
 }
 
 
