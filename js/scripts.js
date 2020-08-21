@@ -1,3 +1,14 @@
+$(document).ready(function)() {
+  $("form#numberForm").submit(function(event) {
+    event.preventDefault();
+    
+  }
+}
+
+
+
+
+
 //create a code to input 0-?
 
 
