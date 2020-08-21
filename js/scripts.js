@@ -1,10 +1,7 @@
-const array = [1];
-let wordArray = [];
-array.forEach(function(element) {
-  wordArray.push(element === Beep);
-});
-wordArray;
 
+for (let index = 1; index <= 3; index += 1) {
+  console.log(index);
+}
 
 //function threeDig(number) {
   //if (number === 1) {
