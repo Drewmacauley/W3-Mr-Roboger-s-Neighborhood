@@ -1,46 +1,26 @@
+function threeDig(number) {      //Should return a value not JQ
+  if (number === 1) {
+   $("#numberInput").text("Beep");
+  }
+  else if (number === 2) {
+   $("#numberInput").text("Boop");
+  }
+ else if (number === 3) {
+    $("#numberInput").text("Wont you be my neighbor"); 
+  });
+});
 
-for (let index = 1; index <= 3; index += 1) {
-  console.log(index);
-}
+    let newArr = [];
+    for (let i=0; i < formInt; i += 1) {
+      let newInt = (newArr[i]-1);        //peace out newInt add 3dig
+     if (newInt === 0) {
+        break;
+      };
+      newArr.push(newInt);      //output newArr with JQ.....not sure what that means
+    }
+   let facNum = newArr.reduce((a,b) => a * b);
+    $("result").text(facNum);
 
-const array = [0,1,2,3,4,5];
-let doubledArray = [];
-for (let index = 0; index < array.length; index +=1) {
-  doubledArray.push(array[index] * 2);
-}
-doubledArray;
-
-//function threeDig(number) {
-  //if (number === 1) {
-   // $("#numberInput").text("Beep");
-  //}
-  //else if (number === 2) {
-   // $("#numberInput").text("Boop");
-  //}
- // else if (number === 3) {
-    //$("#numberInput").text("Wont you be my neighbor"); 
-   // }
-  //}
-
-
-//$(document).ready(function() {
-  //$("form#numberForm").submit(function(event) {
-    //event.preventDefault();
-    //const formInt = parseInt($("input#numberInput").val());
-
-    //let newArr = [formInt];
-    //for (let i=o; i < formInt; i =+ 1) {
-      //let newInt = (newArr[i]-1);
-     // if (newInt === 0) {
-        //break;
-      //};
-      //newArr.push(newInt); 
-    //}
-   // let facNum = newArr.reduce((a,b) => a * b);
-    //$("result").text(facNum);
-
-  //});
-//});
 
 
 
@@ -49,15 +29,15 @@ doubledArray;
 //create a code to input 0-?
 
 
-//Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+//Numbers that contain a 1: all digits are replaced all digits with "Beep!"
 
 
 
-//Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+//Numbers that contain a 2: all digits are replaced all digits with "Boop!"
 
 
 
-//Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
+//Numbers that contain a 3: all digits are replaced all digits with "Won't you be my neighbor?"
 
 
 
